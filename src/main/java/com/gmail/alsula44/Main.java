@@ -7,11 +7,15 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println(getHelloMessage());
-
+        
+        System.out.println(getByeMessage());
     }
 
     private static String getHelloMessage() {
         return msg;
     }
-
+    
+    private static String getByeMessage() {
+        return msg2;
+    }
 }
