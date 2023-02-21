@@ -7,9 +7,11 @@ public class Main {
 
     public static void main(String[] args) {
         
-        System.out.println(getByeMessage());
+        System.out.println(getHelloMessage()+getByeMessage());
     }
-
+    
+    private static String getByeMessage() {
+        return msg;
     
     private static String getByeMessage() {
         return msg2;
